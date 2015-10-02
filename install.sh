@@ -1,5 +1,6 @@
 #!/usr/bin/sh
 
+[ -d ~/.moc ] || mkdir ~/.moc
 cp ./moc/config ~/.moc/
-cp .gitconfig ~/
-cp .tmux.conf ~/.tmux.conf
+cp ./git/.gitconfig ~/
+cp ./tmux/.tmux.conf ~/.tmux.conf
