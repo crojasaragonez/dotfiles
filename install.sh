@@ -4,5 +4,5 @@
 cp ./moc/config ~/.moc/
 cp ./git/.gitconfig ~/
 cp ./tmux/.tmux.conf ~/.tmux.conf
-cp ./vim/.vimrc ~/.vim
+cp ./vim/.vimrc ~/
 cp -rf ./vim/colors ~/.vim
