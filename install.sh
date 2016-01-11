@@ -6,3 +6,4 @@ cp ./git/.gitconfig ~/
 cp ./tmux/.tmux.conf ~/.tmux.conf
 cp ./vim/.vimrc ~/
 cp -rf ./vim/colors ~/.vim
+cp ./kde4/share/config/* ~/.kde4/share/config
