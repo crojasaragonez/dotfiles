@@ -3,3 +3,5 @@
 	email = crojasaragonez@hotmail.com
 [push]
 	default = simple
+[core]
+        editor = vim
