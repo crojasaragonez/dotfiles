@@ -1,0 +1,11 @@
+# SSH over Session Manager
+
+#host i-* mi-*
+
+#ProxyCommand sh -c "aws ssm start-session --target %h --document-name AWS-StartSSHSession --parameters 'portNumber=%p' --region us-east-1"
+
+host i-* mi-*
+  IdentityFile ~/.ssh/id_ed25519
+  ProxyCommand ~/.ssh/aws-ssm-ec2-proxy-command.sh %h %r %p ~/.ssh/id_ed25519.pub
+  StrictHostKeyChecking no
+
